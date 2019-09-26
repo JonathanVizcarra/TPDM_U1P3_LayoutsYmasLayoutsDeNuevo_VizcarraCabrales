@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#094943"
+    android:orientation="vertical"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="18 Educational Android\nApps for Teachers"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Android\nNote\nTaking\nApps"
+            android:background="#bbb"
+            android:textColor="#9900"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:gravity="center"/>
+
+        <TableLayout android:background="#bbb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:padding="5dp">
+            <TableRow>
+                <ImageView android:src="@drawable/ico1"/>
+                <ImageView android:src="@drawable/ico2"/>
+                <ImageView android:src="@drawable/ico3"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Google Keep"
+                    android:textAlignment="center"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:text="Evernote"
+                    android:textAlignment="center"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:text="OneNote"
+                    android:textAlignment="center"
+                    android:textSize="10dp"/>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+    //
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Android\nPortfolio\nApps"
+            android:background="#bbb"
+            android:textColor="#9900"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:gravity="center"/>
+
+        <TableLayout android:background="#bbb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:padding="5dp">
+            <TableRow>
+                <ImageView android:src="@drawable/ico4"/>
+                <ImageView android:src="@drawable/ico5"/>
+                <ImageView android:src="@drawable/ico6"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Weeby"
+                    android:textAlignment="center"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:text="Three Ring"
+                    android:textAlignment="center"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:text="Seesaw"
+                    android:textAlignment="center"
+                    android:textSize="10dp"/>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+    //
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Android\nPresentation\nApps"
+            android:background="#bbb"
+            android:textColor="#9900"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:gravity="center"/>
+
+        <TableLayout android:background="#bbb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:padding="5dp">
+            <TableRow>
+                <ImageView android:src="@drawable/ico7"/>
+                <ImageView android:src="@drawable/ico8"/>
+                <ImageView android:src="@drawable/ico9"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Google Slides"
+                    android:textAlignment="center"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:text="PowerPoint"
+                    android:textAlignment="center"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:text="Prezi Viewer"
+                    android:textAlignment="center"
+                    android:textSize="10dp"/>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+    //
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Android\nReference\nApps"
+            android:background="#bbb"
+            android:textColor="#9900"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:gravity="center"/>
+
+        <TableLayout android:background="#bbb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:padding="5dp">
+            <TableRow>
+                <ImageView android:src="@drawable/ico10"/>
+                <ImageView android:src="@drawable/ico11"/>
+                <ImageView android:src="@drawable/ico12"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Easy Bib"
+                    android:textAlignment="center"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:text="Cite This For Me"
+                    android:textAlignment="center"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:text="Mendely"
+                    android:textAlignment="center"
+                    android:textSize="10dp"/>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+    //
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Android\nMind Mapping\nApps"
+            android:background="#bbb"
+            android:textColor="#9900"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:gravity="center"/>
+
+        <TableLayout android:background="#bbb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:padding="5dp">
+            <TableRow>
+                <ImageView android:src="@drawable/ico13"/>
+                <ImageView android:src="@drawable/ico14"/>
+                <ImageView android:src="@drawable/ico15"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="SimpleMind"
+                    android:textAlignment="center"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:text="MindMeister"
+                    android:textAlignment="center"
+                    android:textSize="10dp"/>
+                <TextView
+                    android:text="Mindomo"
+                    android:textAlignment="center"
+                    android:textSize="10dp"/>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
